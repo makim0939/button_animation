@@ -29,20 +29,20 @@
     position: absolute;
     right: 40%;
     top: 50%;
-    background: url("../images/good_sheet.png") no-repeat;
+    background: url("../images/good.png") no-repeat;
     background-position: 0 0;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 .good.active {
-  background-position: -1080px 0;
-  transition:  1s steps(15);
+  background-position: -1800px 0;
+  transition:  1s steps(25);
 } 
 @keyframes good {
   0% {
     background-position: 0 0;
   }
   100% {
-    background-position: -1080px 0;
+    background-position: -1800px 0;
   }
 }
