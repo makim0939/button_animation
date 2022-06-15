@@ -1,0 +1,24 @@
+.push {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url("../images/pushTest.png") no-repeat;
+    background-position: 0 0;
+    
+}
+
+.push:hover {
+    background-position: -820px 0;
+    transition: .7s steps(10);
+}
+
+@keyframes push {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -820px 0;
+    }
+  }
