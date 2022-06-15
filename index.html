@@ -6,6 +6,16 @@
     <title>effectsLibrary</title>
 </head>
 <body>
-    <div class="push"></div>
+    <div class="push" onclick="active();"></div>
+
+    <script>
+        function active() {
+            document.getElementsByClassName("push")[0].classList.add("active")
+            setTimeout(function() {
+                document.getElementsByClassName("push")[0].classList.remove("active");
+            }, 900);
+            
+        }
+    </script>
 </body>
 </html>

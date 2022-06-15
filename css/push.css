@@ -9,7 +9,7 @@
     
 }
 
-.push:active {
+.active {
     background-position: -820px 0;
     transition: .7s steps(10);
 }
