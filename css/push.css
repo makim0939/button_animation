@@ -2,14 +2,14 @@
     width: 82px;
     height: 82px;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
     background: url("../images/pushTest.png") no-repeat;
     background-position: 0 0;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
-.active {
+.push.active {
     background-position: -820px 0;
     transition: .7s steps(10);
 }
@@ -22,3 +22,27 @@
       background-position: -820px 0;
     }
   }
+
+  .good {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    background: url("../images/good_sheet.png") no-repeat;
+    background-position: 0 0;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.good.active {
+  background-position: -1080px 0;
+  transition:  1s steps(15);
+} 
+@keyframes good {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1080px 0;
+  }
+}
